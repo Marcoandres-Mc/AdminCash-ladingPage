@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav />
-        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start m-16">
+        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start mx-16">
           {children}
         </main>
         <Footer />

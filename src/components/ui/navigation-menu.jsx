@@ -45,7 +45,7 @@ function NavigationMenuItem({
   return (
     (<NavigationMenuPrimitive.Item
       data-slot="navigation-menu-item"
-      className={cn("relative", className)}
+      className={cn(" text-black hover:text-white focus:text-white ", className)}
       {...props} />)
   );
 }
