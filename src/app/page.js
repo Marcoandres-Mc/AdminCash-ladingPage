@@ -14,6 +14,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+import Link from "next/link"
+
 
 
 export default function Home() {
@@ -23,9 +25,11 @@ export default function Home() {
         <div className=" flex flex-col justify-center align-middle w-1/2 ">
           <h1 className="text-5xl text-white font-bold">Toma el control de tus finanzas con AdminCash</h1>
           <h2 className="text-1xl text-white font-bold py-4">Administra tus ingresos, gastos y ahorros de manera fácil e inteligente.</h2>
-          <div className="bg-[#1D8647] text-white text-center font-bold rounded-md w-[150px] p-3 ">
-            Empieza gratis
-          </div>
+          <Link href="/" >
+            <div className="bg-[#1D8647] text-white text-center font-bold rounded-md w-[150px] p-3 ">
+              Empieza gratis
+            </div>
+          </Link>
         </div>
     
         <img className="w-[400px] w-1/2" src="https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67aa6769519aa08294a66fce_features_hero_test%20(1).avif" alt=""/>

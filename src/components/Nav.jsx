@@ -59,7 +59,7 @@ const Nav = () => {
   ]
   return (
     <>
-      <div className='flex justify-between items-center bg-[#1D8647] text-white p-4 w-full'>
+      <div className='flex justify-between items-center bg-[#1D8647] text-white py-4 px-12 w-full'>
         <a href="/">
           <div className='flex items-center'>
             <IconAdmin/>
@@ -85,8 +85,7 @@ const Nav = () => {
                              ¿Que es adminCash?
                         </div>
                         <p className="text-sm leading-tight text-muted-foreground">
-                          Beautifully designed components built with Radix UI and
-                          Tailwind CSS.
+                          Conocenos mas para manejar mejor las finanzas
                         </p>
                       </a>
                     </NavigationMenuLink>
@@ -123,16 +122,26 @@ const Nav = () => {
             <NavigationMenuItem>
               <Link href="/docs" legacyBehavior passHref>
                 <NavigationMenuLink>
-                  Documentation
+                    Precio
+                  
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <Link href="/" className="text-white">
-          Log in
-        </Link>
-          <button className='bg-[#FFD700] text-black rounded-md py-2 ml-2'>Sign In</button>
+        <div className='flex justify-center gap-3 align-middle'>
+          <Link href="/" >
+            <div className='text-white text-center font-bold rounded-md w-[150px] p-3 hover:underline decoration-2 decoration-white '>
+              Log in
+            </div>  
+          </Link>
+          <Link href="/" className="text-white">
+            <div className="bg-[white] text-[#1D8647] text-center font-bold rounded-md w-[150px] p-3 ">
+              Empieza gratis
+            </div>
+          </Link>
+        </div>
+        
       </div>
     </>
   )
