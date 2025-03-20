@@ -22,7 +22,10 @@ export default function Home() {
       <div className="flex flex-row justify-center align-middle bg-[#5c60dc] py-[130px]">
         <div className=" flex flex-col justify-center align-middle w-1/2 ">
           <h1 className="text-5xl text-white font-bold">Toma el control de tus finanzas con AdminCash</h1>
-          <h2>Administra tus ingresos, gastos y ahorros de manera fácil e inteligente.</h2>
+          <h2 className="text-1xl text-white font-bold py-4">Administra tus ingresos, gastos y ahorros de manera fácil e inteligente.</h2>
+          <div className="bg-[#1D8647] text-white text-center font-bold rounded-md w-[150px] p-3 ">
+            Empieza gratis
+          </div>
         </div>
     
         <img className="w-[400px] w-1/2" src="https://cdn.prod.website-files.com/640f69143ec11b21d42015c6/67aa6769519aa08294a66fce_features_hero_test%20(1).avif" alt=""/>
@@ -31,7 +34,7 @@ export default function Home() {
       <div className="text-center py-20 px-30">
         <h3 className="text-4xl">&quot;Simplifica tus finanzas, controla tus gastos y alcanza tus metas fácilmente.&quot;</h3>
       </div>
-      <div>
+      <div className="p-10">
         <div>
           <h3 className="text-4xl">¿Por qué elegir AdminCash?</h3>
           <p>
@@ -104,10 +107,72 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center">
         <h2>Características</h2>
         <Carousel>
-          <CarouselContent>
-            <CarouselItem className="basis-1/2 lg:basis-1/3">Mejora manejo finaziero</CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/3">...</CarouselItem>
-            <CarouselItem className="basis-1/2 lg:basis-1/3">...</CarouselItem>
+          <CarouselContent className="w-[1000px]">
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+            <div className="w-[300px]">
+              <div className="flex justify-center border-1 border-b-blue-950 p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 256 257" version="1.1" role="img">
+
+                </svg>
+              </div>
+              <div className="bg-[#262973] text-white p-5">
+                <h2 className="font-bold">✅ Reportes y análisis</h2>
+                <p>Obtén gráficos detallados sobre tus finanzas.</p>
+              </div>
+            </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+              <div className="w-[300px]">
+                <div className="flex justify-center border-1 border-b-blue-950 p-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 256 257" version="1.1" role="img">
+
+                  </svg>
+                </div>
+                <div className="bg-[#262973] text-white p-5">
+                  <h2 className="font-bold">✅ Reportes y análisis</h2>
+                  <p>Obtén gráficos detallados sobre tus finanzas.</p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+            <div className="w-[300px]">
+              <div className="flex justify-center border-1 border-b-blue-950 p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 256 257" version="1.1" role="img">
+
+                </svg>
+              </div>
+              <div className="bg-[#262973] text-white p-5">
+                <h2 className="font-bold">✅ Reportes y análisis</h2>
+                <p>Obtén gráficos detallados sobre tus finanzas.</p>
+              </div>
+            </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+            <div className="w-[300px]">
+              <div className="flex justify-center border-1 border-b-blue-950 p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 256 257" version="1.1" role="img">
+
+                </svg>
+              </div>
+              <div className="bg-[#262973] text-white p-5">
+                <h2 className="font-bold">✅ Reportes y análisis</h2>
+                <p>Obtén gráficos detallados sobre tus finanzas.</p>
+              </div>
+            </div>
+            </CarouselItem>
+            <CarouselItem className="basis-1/2 lg:basis-1/3">
+            <div className="w-[300px]">
+              <div className="flex justify-center border-1 border-b-blue-950 p-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 256 257" version="1.1" role="img">
+
+                </svg>
+              </div>
+              <div className="bg-[#262973] text-white p-5">
+                <h2 className="font-bold">✅ Reportes y análisis</h2>
+                <p>Obtén gráficos detallados sobre tus finanzas.</p>
+              </div>
+            </div>
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
